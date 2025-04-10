@@ -1,4 +1,6 @@
 # InputSystemUtils
- Dynamic Localized Input Hints
- 
- Dynamic Rebinding UI Icons
+-Support for all controllers and keyboard/mouse icons
+<br>
+-Dynamic Localized Input Hints
+<br>
+-Dynamic Rebinding UI Icons
