@@ -1,0 +1,16 @@
+{
+  "name": "com.lucasgaston.inputhints",
+  "version": "1.0.0",
+  "displayName": "Input Hints",
+  "description": "This is an example package",
+  "unity": "2022.1",
+  "dependencies": {
+    "com.unity.inputsystem": "1.7.0",
+    "com.unity.localization": "1.4.5",
+    "games.noio.input-hints": "https://github.com/lucasgaston0/games.noio.input-hints.git"
+  },
+  "author": {
+    "name": "Lucas Gaston Symeonides",
+    "email": "lucasgaston2003@gmail.com"
+  }
+}

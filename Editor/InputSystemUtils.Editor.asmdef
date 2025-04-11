@@ -1,0 +1,18 @@
+{
+    "name": "InputSystemUtils.Editor",
+    "rootNamespace": "InputSystemUtils",
+    "references": [
+        "InputSystemUtils",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
