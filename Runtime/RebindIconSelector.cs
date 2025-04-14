@@ -3,6 +3,7 @@ using UnityEngine;
 using static UnityEditor.PlayerSettings;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
+using System.Collections.Generic;
 
 namespace InputSystemUtils
 {
@@ -23,13 +24,21 @@ namespace InputSystemUtils
 
         protected void OnUpdateBindingDisplay(RebindActionUI component, string bindingDisplayString, string deviceLayoutName, string controlPath)
         {
-            if (string.IsNullOrEmpty(deviceLayoutName) || string.IsNullOrEmpty(controlPath))
+            /*print("bindingDisplayString: " + bindingDisplayString);
+            print("deviceLayoutName: " + deviceLayoutName);
+            print("controlPath: " + controlPath);*/
+
+            if ((string.IsNullOrEmpty(deviceLayoutName) || string.IsNullOrEmpty(controlPath)) && string.IsNullOrEmpty(bindingDisplayString))
                 return;
 
             var textComponent = component.bindingText;
             string spriteString;
 
-            if (InputSystem.IsFirstLayoutBasedOnSecond(deviceLayoutName, "Gamepad"))
+            if(bindingDisplayString != null && string.IsNullOrEmpty(deviceLayoutName) && string.IsNullOrEmpty(controlPath))
+            {
+                spriteString = _source.GetSpriteComposite(component.actionReference.action, bindingDisplayString);
+            }
+            else if (InputSystem.IsFirstLayoutBasedOnSecond(deviceLayoutName, "Gamepad"))
             {
                 spriteString = _source.GetSprite(component.actionReference.action, true);
             }
@@ -41,6 +50,7 @@ namespace InputSystemUtils
             if (!string.IsNullOrEmpty(spriteString))
             {
                 textComponent.text = spriteString;
+                textComponent.color = Color.white;
             }
         }
     }

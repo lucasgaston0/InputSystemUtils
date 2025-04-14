@@ -204,8 +204,10 @@ namespace InputSystemUtils
 
             // Set on label (if any).
             if (m_BindingText != null)
+            {
                 m_BindingText.text = displayString;
-
+                m_BindingText.color = Color.black;
+            }
             // Give listeners a chance to configure UI in response.
             m_UpdateBindingUIEvent?.Invoke(this, displayString, deviceLayoutName, controlPath);
         }

@@ -1,0 +1,590 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4dad2aee4f469280c179c2eda6f724, type: 3}
+  m_Name: Input Hint Config
+  m_EditorClassIdentifier: 
+  _inputActions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  _spriteFormat: <sprite="{0}" name="{1}" tint=1>
+  _spriteCategories:
+  - _name: Gamepad
+  - _name: Keyboard
+  - _name: Mouse
+  - _name: DualShock
+  - _name: Switch
+  _controlTypes:
+  - _devices: (Mouse|Keyboard)
+    _inputControlScheme: Keyboard&Mouse
+    _spriteAssets:
+    - _spriteCategory: Keyboard
+      _spriteAsset: {fileID: 11400000, guid: 67edaa0c7f68c164f88ed2662c6075de, type: 2}
+    - _spriteCategory: Mouse
+      _spriteAsset: {fileID: 11400000, guid: 67edaa0c7f68c164f88ed2662c6075de, type: 2}
+  - _devices: DualShock
+    _inputControlScheme: Gamepad
+    _spriteAssets:
+    - _spriteCategory: DualShock
+      _spriteAsset: {fileID: 11400000, guid: f71270440b460cb46bc41d8fdaa2453f, type: 2}
+  - _devices: Switch
+    _inputControlScheme: Gamepad
+    _spriteAssets:
+    - _spriteCategory: Switch
+      _spriteAsset: {fileID: 11400000, guid: effbeef2d8bf3084eb885f4f21f5975d, type: 2}
+  - _devices: 
+    _inputControlScheme: Gamepad
+    _spriteAssets:
+    - _spriteCategory: Gamepad
+      _spriteAsset: {fileID: 11400000, guid: 3662a3d2d7e923040ae0fd9cc4c9387c, type: 2}
+  _sprites:
+  - _controlPath: 0
+    _spriteName: T_Key_0
+    _spriteCategory: Keyboard
+  - _controlPath: 1
+    _spriteName: T_Key_1
+    _spriteCategory: Keyboard
+  - _controlPath: 2
+    _spriteName: T_Key_2
+    _spriteCategory: Keyboard
+  - _controlPath: 3
+    _spriteName: T_Key_3
+    _spriteCategory: Keyboard
+  - _controlPath: 4
+    _spriteName: T_Key_4
+    _spriteCategory: Keyboard
+  - _controlPath: 5
+    _spriteName: T_Key_5
+    _spriteCategory: Keyboard
+  - _controlPath: 6
+    _spriteName: T_Key_6
+    _spriteCategory: Keyboard
+  - _controlPath: 7
+    _spriteName: T_Key_7
+    _spriteCategory: Keyboard
+  - _controlPath: 8
+    _spriteName: T_Key_8
+    _spriteCategory: Keyboard
+  - _controlPath: semicolon
+    _spriteName: T_Key_Semicolon
+    _spriteCategory: Keyboard
+  - _controlPath: 9
+    _spriteName: T_Key_9
+    _spriteCategory: Keyboard
+  - _controlPath: a
+    _spriteName: T_Key_A
+    _spriteCategory: Keyboard
+  - _controlPath: alt
+    _spriteName: T_Key_Alt
+    _spriteCategory: Keyboard
+  - _controlPath: numpadMultiply
+    _spriteName: T_Key_Asterisk
+    _spriteCategory: Keyboard
+  - _controlPath: b
+    _spriteName: T_Key_B
+    _spriteCategory: Keyboard
+  - _controlPath: backspace
+    _spriteName: T_Key_BackSpace
+    _spriteCategory: Keyboard
+  - _controlPath: leftBracket
+    _spriteName: T_Key_LeftBracket
+    _spriteCategory: Keyboard
+  - _controlPath: rightBracket
+    _spriteName: T_Key_RightBracket
+    _spriteCategory: Keyboard
+  - _controlPath: c
+    _spriteName: T_Key_C
+    _spriteCategory: Keyboard
+  - _controlPath: shift
+    _spriteName: T_Key_LeftShift
+    _spriteCategory: Keyboard
+  - _controlPath: capsLock
+    _spriteName: T_Key_CapsLock
+    _spriteCategory: Keyboard
+  - _controlPath: ctrl
+    _spriteName: T_Key_Ctrl
+    _spriteCategory: Keyboard
+  - _controlPath: delta
+    _spriteName: T_Key_Cursor
+    _spriteCategory: Mouse
+  - _controlPath: d
+    _spriteName: T_Key_D
+    _spriteCategory: Keyboard
+  - _controlPath: delete
+    _spriteName: T_Key_Del
+    _spriteCategory: Keyboard
+  - _controlPath: downArrow
+    _spriteName: T_Key_DownArrow
+    _spriteCategory: Keyboard
+  - _controlPath: e
+    _spriteName: T_Key_E
+    _spriteCategory: Keyboard
+  - _controlPath: end
+    _spriteName: T_Key_End
+    _spriteCategory: Keyboard
+  - _controlPath: enter
+    _spriteName: T_Key_Enter
+    _spriteCategory: Keyboard
+  - _controlPath: escape
+    _spriteName: T_Key_Escape
+    _spriteCategory: Keyboard
+  - _controlPath: f10
+    _spriteName: T_Key_F10
+    _spriteCategory: Keyboard
+  - _controlPath: f11
+    _spriteName: T_Key_F11
+    _spriteCategory: Keyboard
+  - _controlPath: f12
+    _spriteName: T_Key_F12
+    _spriteCategory: Keyboard
+  - _controlPath: f1
+    _spriteName: T_Key_F1
+    _spriteCategory: Keyboard
+  - _controlPath: f2
+    _spriteName: T_Key_F2
+    _spriteCategory: Keyboard
+  - _controlPath: f3
+    _spriteName: T_Key_F3
+    _spriteCategory: Keyboard
+  - _controlPath: slash
+    _spriteName: T_Key_Slash
+    _spriteCategory: Keyboard
+  - _controlPath: f4
+    _spriteName: T_Key_F4
+    _spriteCategory: Keyboard
+  - _controlPath: f5
+    _spriteName: T_Key_F5
+    _spriteCategory: Keyboard
+  - _controlPath: f6
+    _spriteName: T_Key_F6
+    _spriteCategory: Keyboard
+  - _controlPath: f7
+    _spriteName: T_Key_F7
+    _spriteCategory: Keyboard
+  - _controlPath: f8
+    _spriteName: T_Key_F8
+    _spriteCategory: Keyboard
+  - _controlPath: f9
+    _spriteName: T_Key_F9
+    _spriteCategory: Keyboard
+  - _controlPath: f
+    _spriteName: T_Key_F
+    _spriteCategory: Keyboard
+  - _controlPath: g
+    _spriteName: T_Key_G
+    _spriteCategory: Keyboard
+  - _controlPath: h
+    _spriteName: T_Key_H
+    _spriteCategory: Keyboard
+  - _controlPath: space
+    _spriteName: T_Key_Space
+    _spriteCategory: Keyboard
+  - _controlPath: home
+    _spriteName: T_Key_Home
+    _spriteCategory: Keyboard
+  - _controlPath: i
+    _spriteName: T_Key_I
+    _spriteCategory: Keyboard
+  - _controlPath: insert
+    _spriteName: T_Key_Insert
+    _spriteCategory: Keyboard
+  - _controlPath: j
+    _spriteName: T_Key_J
+    _spriteCategory: Keyboard
+  - _controlPath: k
+    _spriteName: T_Key_K
+    _spriteCategory: Keyboard
+  - _controlPath: l
+    _spriteName: T_Key_L
+    _spriteCategory: Keyboard
+  - _controlPath: leftArrow
+    _spriteName: T_Key_LeftArrow
+    _spriteCategory: Keyboard
+  - _controlPath: t
+    _spriteName: T_Key_T
+    _spriteCategory: Keyboard
+  - _controlPath: m
+    _spriteName: T_Key_M
+    _spriteCategory: Keyboard
+  - _controlPath: minus
+    _spriteName: T_Key_Hyphen
+    _spriteCategory: Keyboard
+  - _controlPath: leftButton
+    _spriteName: T_Key_LeftClick
+    _spriteCategory: Mouse
+  - _controlPath: middleButton
+    _spriteName: T_Key_MiddleClick
+    _spriteCategory: Mouse
+  - _controlPath: rightButton
+    _spriteName: T_Key_RightClick
+    _spriteCategory: Mouse
+  - _controlPath: scroll
+    _spriteName: T_Key_WheelScroll
+    _spriteCategory: Mouse
+  - _controlPath: n
+    _spriteName: T_Key_N
+    _spriteCategory: Keyboard
+  - _controlPath: numLock
+    _spriteName: T_Key_NumLock
+    _spriteCategory: Keyboard
+  - _controlPath: o
+    _spriteName: T_Key_O
+    _spriteCategory: Keyboard
+  - _controlPath: p
+    _spriteName: T_Key_P
+    _spriteCategory: Keyboard
+  - _controlPath: pageDown
+    _spriteName: T_Key_PageDown
+    _spriteCategory: Keyboard
+  - _controlPath: pageUp
+    _spriteName: T_Key_PageUp
+    _spriteCategory: Keyboard
+  - _controlPath: numpadPlus
+    _spriteName: T_Key_Plus2
+    _spriteCategory: Keyboard
+  - _controlPath: '#(+)'
+    _spriteName: T_Key_Plus
+    _spriteCategory: Keyboard
+  - _controlPath: printScreen
+    _spriteName: T_Key_PrintScreen
+    _spriteCategory: Keyboard
+  - _controlPath: q
+    _spriteName: T_Key_Q
+    _spriteCategory: Keyboard
+  - _controlPath: r
+    _spriteName: T_Key_R
+    _spriteCategory: Keyboard
+  - _controlPath: rightArrow
+    _spriteName: T_Key_RightArrow
+    _spriteCategory: Keyboard
+  - _controlPath: s
+    _spriteName: T_Key_S
+    _spriteCategory: Keyboard
+  - _controlPath: u
+    _spriteName: T_Key_U
+    _spriteCategory: Keyboard
+  - _controlPath: upArrow
+    _spriteName: T_Key_UpArrow
+    _spriteCategory: Keyboard
+  - _controlPath: v
+    _spriteName: T_Key_V
+    _spriteCategory: Keyboard
+  - _controlPath: w
+    _spriteName: T_Key_W
+    _spriteCategory: Keyboard
+  - _controlPath: x
+    _spriteName: T_Key_X
+    _spriteCategory: Keyboard
+  - _controlPath: y
+    _spriteName: T_Key_Y
+    _spriteCategory: Keyboard
+  - _controlPath: z
+    _spriteName: T_Key_Z
+    _spriteCategory: Keyboard
+  - _controlPath: buttonEast
+    _spriteName: T_P4_Circle
+    _spriteCategory: DualShock
+  - _controlPath: buttonSouth
+    _spriteName: T_P4_Cross
+    _spriteCategory: DualShock
+  - _controlPath: dpad
+    _spriteName: T_P4_Dpad
+    _spriteCategory: DualShock
+  - _controlPath: dpad/down
+    _spriteName: T_P4_DpadDown
+    _spriteCategory: DualShock
+  - _controlPath: dpad/left
+    _spriteName: T_P4_DpadLeft
+    _spriteCategory: DualShock
+  - _controlPath: dpad/right
+    _spriteName: T_P4_DpadRight
+    _spriteCategory: DualShock
+  - _controlPath: rightStickPress
+    _spriteName: T_P4_R3
+    _spriteCategory: DualShock
+  - _controlPath: dpad/x
+    _spriteName: T_P4_DpadHorizontal
+    _spriteCategory: DualShock
+  - _controlPath: dpad/y
+    _spriteName: T_P4_DpadVertical
+    _spriteCategory: DualShock
+  - _controlPath: leftShoulder
+    _spriteName: T_P4_L1
+    _spriteCategory: DualShock
+  - _controlPath: leftTrigger
+    _spriteName: T_P4_L2
+    _spriteCategory: DualShock
+  - _controlPath: rightStick
+    _spriteName: T_P4_RightStickMove
+    _spriteCategory: DualShock
+  - _controlPath: rightStick/down
+    _spriteName: T_P4_RightStickDown
+    _spriteCategory: DualShock
+  - _controlPath: leftStick
+    _spriteName: T_P4_LeftStickMove
+    _spriteCategory: DualShock
+  - _controlPath: leftStick/down
+    _spriteName: T_P4_LeftStickDown
+    _spriteCategory: DualShock
+  - _controlPath: leftStick/left
+    _spriteName: T_P4_LeftStickLeft
+    _spriteCategory: DualShock
+  - _controlPath: leftStick/right
+    _spriteName: T_P4_LeftStickRight
+    _spriteCategory: DualShock
+  - _controlPath: leftStick/up
+    _spriteName: T_P4_LeftStickUp
+    _spriteCategory: DualShock
+  - _controlPath: rightStick/left
+    _spriteName: T_P4_RightStickLeft
+    _spriteCategory: DualShock
+  - _controlPath: select
+    _spriteName: T_P4_Share
+    _spriteCategory: DualShock
+  - _controlPath: start
+    _spriteName: T_P4_Options
+    _spriteCategory: DualShock
+  - _controlPath: leftStickPress
+    _spriteName: T_P4_L3
+    _spriteCategory: DualShock
+  - _controlPath: rightShoulder
+    _spriteName: T_P4_R1
+    _spriteCategory: DualShock
+  - _controlPath: rightStick/right
+    _spriteName: T_P4_RightStickRight
+    _spriteCategory: DualShock
+  - _controlPath: buttonWest
+    _spriteName: T_P4_Square
+    _spriteCategory: DualShock
+  - _controlPath: rightTrigger
+    _spriteName: T_P4_R2
+    _spriteCategory: DualShock
+  - _controlPath: rightStick/up
+    _spriteName: T_P4_RightStickUp
+    _spriteCategory: DualShock
+  - _controlPath: touchpadButton
+    _spriteName: T_P4_Pad
+    _spriteCategory: DualShock
+  - _controlPath: buttonNorth
+    _spriteName: T_P4_Triangle
+    _spriteCategory: DualShock
+  - _controlPath: leftStick/x
+    _spriteName: T_P4_LeftStickHorizontal
+    _spriteCategory: DualShock
+  - _controlPath: leftStick/y
+    _spriteName: T_P4_LeftStickVertical
+    _spriteCategory: DualShock
+  - _controlPath: rightStick/x
+    _spriteName: T_P4_RightStickHorizontal
+    _spriteCategory: DualShock
+  - _controlPath: rightStick/y
+    _spriteName: T_P4_RightStickVertical
+    _spriteCategory: DualShock
+  - _controlPath: buttonSouth
+    _spriteName: T_S_A
+    _spriteCategory: Switch
+  - _controlPath: buttonEast
+    _spriteName: T_S_B
+    _spriteCategory: Switch
+  - _controlPath: rightStick/left
+    _spriteName: T_S_RightStickLeft
+    _spriteCategory: Switch
+  - _controlPath: dpad
+    _spriteName: T_S_Dpad
+    _spriteCategory: Switch
+  - _controlPath: dpad/down
+    _spriteName: T_S_DpadDown
+    _spriteCategory: Switch
+  - _controlPath: dpad/left
+    _spriteName: T_S_DpadLeft
+    _spriteCategory: Switch
+  - _controlPath: dpad/right
+    _spriteName: T_S_DpadRight
+    _spriteCategory: Switch
+  - _controlPath: dpad/up
+    _spriteName: T_S_DpadUp
+    _spriteCategory: Switch
+  - _controlPath: rightStick/right
+    _spriteName: T_S_RightStickRight
+    _spriteCategory: Switch
+  - _controlPath: dpad/x
+    _spriteName: T_S_DpadHorizontal
+    _spriteCategory: Switch
+  - _controlPath: dpad/y
+    _spriteName: T_S_DpadVertical
+    _spriteCategory: Switch
+  - _controlPath: home
+    _spriteName: T_S_Home
+    _spriteCategory: Switch
+  - _controlPath: leftShoulder
+    _spriteName: T_S_LB
+    _spriteCategory: Switch
+  - _controlPath: leftStick
+    _spriteName: T_S_LeftStickMove
+    _spriteCategory: Switch
+  - _controlPath: leftStick/down
+    _spriteName: T_S_LeftStickDown
+    _spriteCategory: Switch
+  - _controlPath: rightStick/up
+    _spriteName: T_S_RightStickUp
+    _spriteCategory: Switch
+  - _controlPath: leftStick/left
+    _spriteName: T_S_LeftStickLeft
+    _spriteCategory: Switch
+  - _controlPath: leftStick/right
+    _spriteName: T_S_LeftStickRight
+    _spriteCategory: Switch
+  - _controlPath: leftStick/up
+    _spriteName: T_S_LeftStickUp
+    _spriteCategory: Switch
+  - _controlPath: leftStick/x
+    _spriteName: T_S_LeftStickHorizontal
+    _spriteCategory: Switch
+  - _controlPath: leftStick/y
+    _spriteName: T_S_LeftStickVertical
+    _spriteCategory: Switch
+  - _controlPath: rightStick/x
+    _spriteName: T_S_RightStickHorizontal
+    _spriteCategory: Switch
+  - _controlPath: select
+    _spriteName: T_S_Minus
+    _spriteCategory: Switch
+  - _controlPath: rightStick/y
+    _spriteName: T_S_RightStickVertical
+    _spriteCategory: Switch
+  - _controlPath: start
+    _spriteName: T_S_Plus
+    _spriteCategory: Switch
+  - _controlPath: leftTrigger
+    _spriteName: T_S_ZL
+    _spriteCategory: Switch
+  - _controlPath: rightShoulder
+    _spriteName: T_S_RB
+    _spriteCategory: Switch
+  - _controlPath: rightTrigger
+    _spriteName: T_S_ZR
+    _spriteCategory: Switch
+  - _controlPath: rightStick
+    _spriteName: T_S_RightStickMove
+    _spriteCategory: Switch
+  - _controlPath: rightStick/down
+    _spriteName: T_S_RightStickDown
+    _spriteCategory: Switch
+  - _controlPath: capture
+    _spriteName: T_S_Square
+    _spriteCategory: Switch
+  - _controlPath: buttonNorth
+    _spriteName: T_S_X
+    _spriteCategory: Switch
+  - _controlPath: buttonWest
+    _spriteName: T_S_Y
+    _spriteCategory: Switch
+  - _controlPath: rightStickPress
+    _spriteName: T_X_R3
+    _spriteCategory: Switch
+  - _controlPath: leftStickPress
+    _spriteName: T_X_L3
+    _spriteCategory: Switch
+  - _controlPath: buttonSouth
+    _spriteName: T_X_A
+    _spriteCategory: Gamepad
+  - _controlPath: buttonEast
+    _spriteName: T_X_B
+    _spriteCategory: Gamepad
+  - _controlPath: dpad
+    _spriteName: T_X_Dpad
+    _spriteCategory: Gamepad
+  - _controlPath: dpad/down
+    _spriteName: T_X_DpadDown
+    _spriteCategory: Gamepad
+  - _controlPath: select
+    _spriteName: T_X_Share
+    _spriteCategory: Gamepad
+  - _controlPath: dpad/left
+    _spriteName: T_X_DpadLeft
+    _spriteCategory: Gamepad
+  - _controlPath: dpad/right
+    _spriteName: T_X_DpadRight
+    _spriteCategory: Gamepad
+  - _controlPath: dpad/x
+    _spriteName: T_X_DpadHorizontal
+    _spriteCategory: Gamepad
+  - _controlPath: dpad/y
+    _spriteName: T_X_DpadVertical
+    _spriteCategory: Gamepad
+  - _controlPath: leftShoulder
+    _spriteName: T_X_LB
+    _spriteCategory: Gamepad
+  - _controlPath: leftTrigger
+    _spriteName: T_X_LT
+    _spriteCategory: Gamepad
+  - _controlPath: leftStick
+    _spriteName: T_X_LeftStickMove
+    _spriteCategory: Gamepad
+  - _controlPath: leftStick/down
+    _spriteName: T_X_LeftStickDown
+    _spriteCategory: Gamepad
+  - _controlPath: leftStick/left
+    _spriteName: T_X_LeftStickLeft
+    _spriteCategory: Gamepad
+  - _controlPath: start
+    _spriteName: T_X_Menu
+    _spriteCategory: Gamepad
+  - _controlPath: leftStick/right
+    _spriteName: T_X_LeftStickRight
+    _spriteCategory: Gamepad
+  - _controlPath: leftStick/up
+    _spriteName: T_X_LeftStickUp
+    _spriteCategory: Gamepad
+  - _controlPath: leftStick/x
+    _spriteName: T_X_LeftStickHorizontal
+    _spriteCategory: Gamepad
+  - _controlPath: leftStick/y
+    _spriteName: T_X_LeftStickVertical
+    _spriteCategory: Gamepad
+  - _controlPath: leftStickPress
+    _spriteName: T_X_L3
+    _spriteCategory: Gamepad
+  - _controlPath: buttonWest
+    _spriteName: T_X_X
+    _spriteCategory: Gamepad
+  - _controlPath: rightShoulder
+    _spriteName: T_X_RB
+    _spriteCategory: Gamepad
+  - _controlPath: rightTrigger
+    _spriteName: T_X_RT
+    _spriteCategory: Gamepad
+  - _controlPath: rightStick
+    _spriteName: T_X_RightStickMove
+    _spriteCategory: Gamepad
+  - _controlPath: rightStick/down
+    _spriteName: T_X_RightStickDown
+    _spriteCategory: Gamepad
+  - _controlPath: rightStick/left
+    _spriteName: T_X_RightStickLeft
+    _spriteCategory: Gamepad
+  - _controlPath: rightStick/right
+    _spriteName: T_X_RightStickRight
+    _spriteCategory: Gamepad
+  - _controlPath: rightStick/up
+    _spriteName: T_X_RightStickUp
+    _spriteCategory: Gamepad
+  - _controlPath: rightStick/x
+    _spriteName: T_X_RightStickHorizontal
+    _spriteCategory: Gamepad
+  - _controlPath: rightStick/y
+    _spriteName: T_X_RightStickVertical
+    _spriteCategory: Gamepad
+  - _controlPath: rightStickPress
+    _spriteName: T_X_R3
+    _spriteCategory: Gamepad
+  - _controlPath: buttonNorth
+    _spriteName: T_X_Y
+    _spriteCategory: Gamepad
+  _missingControlPaths: []
