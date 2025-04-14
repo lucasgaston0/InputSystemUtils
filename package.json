@@ -6,8 +6,7 @@
   "unity": "2022.1",
   "dependencies": {
     "com.unity.inputsystem": "1.7.0",
-    "com.unity.localization": "1.4.5",
-    "games.noio.input-hints": "https://github.com/lucasgaston0/games.noio.input-hints.git"
+    "com.unity.localization": "1.4.5"
   },
   "author": {
     "name": "Lucas Gaston Symeonides",
