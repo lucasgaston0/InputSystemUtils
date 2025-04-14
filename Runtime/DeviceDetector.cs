@@ -12,6 +12,7 @@ namespace InputSystemUtils
         private void Awake()
         {
             _playerInput = GetComponent<PlayerInput>();
+            DontDestroyOnLoad(this.gameObject);
         }
 
         private void OnEnable()
