@@ -1,7 +1,7 @@
 {
   "name": "com.lucasgaston.inputhints",
   "version": "1.0.0",
-  "displayName": "Input Hints",
+  "displayName": "InputSystemUtils",
   "description": "This is an example package",
   "unity": "2022.1",
   "dependencies": {
