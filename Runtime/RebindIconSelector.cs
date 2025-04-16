@@ -1,9 +1,6 @@
 using games.noio.InputHints;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
 using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
-using System.Collections.Generic;
 
 namespace InputSystemUtils
 {
